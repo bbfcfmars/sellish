@@ -19,9 +19,6 @@ export default function Thanks() {
               </a>
               <Link className="button" href="/">Back home</Link>
             </div>
-            <p className="notice" style={{ marginTop: 14 }}>
-              If you used placeholder mode, emails are stored only in your browser. Add Formspree to collect centrally.
-            </p>
           </div>
         </div>
       </div>

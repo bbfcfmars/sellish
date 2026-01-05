@@ -41,11 +41,11 @@ const nextConfig = {
               "style-src 'self' 'unsafe-inline'",
               "img-src 'self' data: https: blob:",
               "font-src 'self' data:",
-              "connect-src 'self' https://formspree.io https://www.google-analytics.com https://analytics.google.com",
+              "connect-src 'self' https://api.web3forms.com https://www.google-analytics.com https://analytics.google.com",
               "frame-src 'none'",
               "object-src 'none'",
               "base-uri 'self'",
-              "form-action 'self' https://formspree.io",
+              "form-action 'self' https://api.web3forms.com",
               "upgrade-insecure-requests"
             ].join('; ')
           }
