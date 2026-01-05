@@ -1,0 +1,9 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://sellish.com/sitemap.xml
+
+# Crawl rate (optional, Google ignores this but others may respect it)
+Crawl-delay: 1
