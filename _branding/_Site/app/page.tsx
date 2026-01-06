@@ -78,6 +78,10 @@ export default function Page() {
             <h3>Declutter easily</h3>
             <p>Move through your backlog fast. List everything in minutes, not hours.</p>
           </div>
+          <div className="card">
+            <h3><em>Sell Faster!</em></h3>
+            <p>Sellish will list your items across multiple marketplaces for the most exposure. Sell more stuff in less time, and maximize profit with our AI Deal Optimizer.</p>
+          </div>
         </div>
       </div>
 
