@@ -80,7 +80,7 @@ export default function Page() {
           </div>
           <div className="card">
             <h3>Sell <em>Faster</em>!</h3>
-            <p>Sellish will list your items across multiple marketplaces for the most exposure. Sell more stuff in lass time, and maximize profit with our AI Deal Optimizer.</p>
+            <p>Sellish will list your items across multiple marketplaces for the most exposure. Sell more stuff in less time, and maximize profit with our AI Deal Optimizer.</p>
           </div>
         </div>
       </div>
