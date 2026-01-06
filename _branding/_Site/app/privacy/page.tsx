@@ -31,25 +31,27 @@ export default function Privacy() {
         </div>
 
         <nav className="toc-simple" aria-label="Table of contents">
-          <p className="toc-title">Jump to section:</p>
-          <a href="#section-1">1</a>
-          <a href="#section-2">2</a>
-          <a href="#section-3">3</a>
-          <a href="#section-4">4</a>
-          <a href="#section-5">5</a>
-          <a href="#section-6">6</a>
-          <a href="#section-7">7</a>
-          <a href="#section-8">8</a>
-          <a href="#section-9">9</a>
-          <a href="#section-10">10</a>
-          <a href="#section-11">11</a>
-          <a href="#section-12">12</a>
-          <a href="#section-13">13</a>
-          <a href="#section-14">14</a>
-          <a href="#section-15">15</a>
-          <a href="#section-16">16</a>
-          <a href="#section-17">17</a>
-          <a href="#section-18">18</a>
+          <h2 className="toc-title">Table of Contents</h2>
+          <ol className="toc-list">
+            <li><a href="#section-1">What Information Do We Collect?</a></li>
+            <li><a href="#section-2">How Do We Process Your Information?</a></li>
+            <li><a href="#section-3">What Legal Bases Do We Rely On to Process Your Personal Information?</a></li>
+            <li><a href="#section-4">When and With Whom Do We Share Your Personal Information?</a></li>
+            <li><a href="#section-5">What Is Our Stance on Third-Party Websites?</a></li>
+            <li><a href="#section-6">Do We Use Cookies and Other Tracking Technologies?</a></li>
+            <li><a href="#section-7">Do We Offer Artificial Intelligence-Based Products?</a></li>
+            <li><a href="#section-8">How Do We Handle Your Social Logins?</a></li>
+            <li><a href="#section-9">How Long Do We Keep Your Information?</a></li>
+            <li><a href="#section-10">How Do We Keep Your Information Safe?</a></li>
+            <li><a href="#section-11">Do We Collect Information from Minors?</a></li>
+            <li><a href="#section-12">What Are Your Privacy Rights?</a></li>
+            <li><a href="#section-13">Controls for Do-Not-Track Features</a></li>
+            <li><a href="#section-14">Do United States Residents Have Specific Privacy Rights?</a></li>
+            <li><a href="#section-15">Do Other Regions Have Specific Privacy Rights?</a></li>
+            <li><a href="#section-16">Do We Make Updates to This Notice?</a></li>
+            <li><a href="#section-17">How Can You Contact Us About This Notice?</a></li>
+            <li><a href="#section-18">How Can You Review, Update, or Delete the Data We Collect from You?</a></li>
+          </ol>
         </nav>
 
         <a href="#top" className="back-to-top" aria-label="Back to top">↑</a>
