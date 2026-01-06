@@ -373,39 +373,72 @@ a {
   margin-bottom: 8px;
 }
 
-.toc {
+.toc-simple {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  padding: 20px 0;
+  margin-bottom: 48px;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.toc-title {
+  margin: 0;
+  font-size: 14px;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.toc-simple a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 32px;
+  height: 32px;
+  padding: 0 8px;
   background: var(--bg-secondary);
   border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 32px;
-  margin-bottom: 48px;
-  position: sticky;
-  top: 20px;
-}
-
-.toc h2 {
-  margin: 0 0 20px;
-  font-size: 20px;
-  font-weight: 600;
-}
-
-.toc ol {
-  margin: 0;
-  padding-left: 20px;
-  line-height: 1.8;
-}
-
-.toc li {
-  margin-bottom: 8px;
-}
-
-.toc a {
+  border-radius: 6px;
   color: var(--text-secondary);
-  transition: color 0.2s;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s;
+  text-decoration: none;
 }
 
-.toc a:hover {
-  color: var(--text);
+.toc-simple a:hover {
+  background: var(--text);
+  color: var(--bg);
+  border-color: var(--text);
+}
+
+.back-to-top {
+  position: fixed;
+  left: 20px;
+  bottom: 40px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text-secondary);
+  font-size: 20px;
+  text-decoration: none;
+  transition: all 0.2s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.back-to-top:hover {
+  background: var(--text);
+  color: var(--bg);
+  border-color: var(--text);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
 }
 
 .legal-section {
@@ -470,11 +503,15 @@ a {
     font-size: 36px;
   }
 
-  .toc {
-    position: static;
-  }
-
   .legal-section h2 {
     font-size: 24px;
+  }
+
+  .back-to-top {
+    left: 16px;
+    bottom: 20px;
+    width: 36px;
+    height: 36px;
+    font-size: 18px;
   }
 }
